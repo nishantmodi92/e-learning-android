@@ -1,20 +1,19 @@
-# E-Learning Platform – Courses, Quizzes & Certification
+## 📚 EduPlay – E-learning App with Offline Mode
 
-## 🏢 Built At
-Exl Service (I).Com Pvt. Ltd.
+> EduPlay is a concept for an Android-based learning platform offering downloadable video courses, interactive quizzes, and progress tracking.
 
-## 🔧 Tech Stack
-- Kotlin, Jetpack Compose, Paging 3
-- ExoPlayer, Firebase Auth, Firestore
+### 🔧 Tech Stack
+- Kotlin, Jetpack Compose
+- Firebase, Paging3, ExoPlayer
+- Clean Architecture + MVVM
 
-## ✨ Features
-- Offline-ready video playback
-- Dynamic quizzes with result analytics
-- Personalized course paths & leaderboard
-- Certificate generation after completion
+### 🌟 Features
+- Downloadable lessons with ExoPlayer
+- Quiz module with dynamic questions
+- Trackable learning paths
+- Leaderboard & completion badges
 
-## 📈 Results
-- 34% boost in course completion
-- High retention due to gamification
-
-🔒 *Code not shared due to company restrictions. This repo is documentation-only.*
+### 👨‍💻 Author
+**Nishant Modi**  
+📫 [nishantmodimaster@gmail.com](mailto:nishantmodimaster@gmail.com)  
+🔗 [LinkedIn](https://linkedin.com/in/nishantmodi92)
