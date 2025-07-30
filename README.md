@@ -1,51 +1,28 @@
 # 📚 EduPlay
 
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin&logoColor=white)
-![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat&logo=android&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat&logo=firebase&logoColor=black)
-![ExoPlayer](https://img.shields.io/badge/ExoPlayer-FF5722?style=flat&logo=google&logoColor=white)
-![Paging3](https://img.shields.io/badge/Paging3-009688?style=flat)
+![Kotlin](https://img.shields.io/badge/Kotlin-0095D5?style=for-the-badge&logo=kotlin&logoColor=white)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-336699?style=for-the-badge)
+![MVVM](https://img.shields.io/badge/MVVM-Pattern-blue?style=for-the-badge)
+![PDF Viewer](https://img.shields.io/badge/PDF-Reader-red?style=for-the-badge)
+![Learning](https://img.shields.io/badge/Education-App-purple?style=for-the-badge)
 
-## 🎓 E-Learning App with Offline Courses & Interactive Quizzes
 
-EduPlay is a comprehensive learning platform that offers offline video playback, certification-based quizzes, and gamified learning paths. Built using Jetpack Compose and Firebase, it ensures fast content access and engaging UI/UX for learners.
+An interactive e-learning platform with lessons, quizzes, and PDF reading capabilities for enhanced mobile learning.
 
----
-
-## ✨ Features
-
-- 🎥 Offline video playback using ExoPlayer
-- 📝 Certification-based dynamic quizzes
-- 🧠 Adaptive learning paths and levels
-- 🏆 Leaderboard to boost competition
-- 🔔 Notifications for reminders & progress updates
-- 📚 Smart course recommendations
-- 📈 Learning completion analytics
-
----
+## 🚀 Features
+- 📖 Structured lesson delivery per topic
+- 📝 Timed quizzes with results & feedback
+- 📂 PDF reader for embedded learning materials
+- 🎨 Clean Compose-based UI
 
 ## 🧰 Tech Stack
+- **Language**: Kotlin
+- **UI**: Jetpack Compose
+- **PDF**: Android PDFViewer
+- **Architecture**: MVVM
 
-- **Language:** Kotlin
-- **UI:** Jetpack Compose, Material Design 3
-- **Architecture:** MVVM, Clean Architecture
-- **Media Player:** ExoPlayer
-- **State Management:** Paging3
-- **Backend:** Firebase Firestore, Firebase Auth, Firebase Storage
+## 📦 Architecture
+MVVM with clear separation between UI and logic for scalable learning modules.
 
----
-
-## 🤝 Contributing
-Pull requests are welcome. For significant changes, please open an issue to discuss your ideas first.
-
----
-
-## 📄 License
-MIT License
-
----
-
-## 📬 Contact
-**Nishant Modi**  
-📧 nishantmodimaster@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/nishantmodi92)
+## 🔗 Repository
+[👉 GitHub – EduPlay](https://github.com/nishantmodi92/EduPlay)
