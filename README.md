@@ -1,117 +1,91 @@
-# 🎓 EduPlay – E-Learning Platform with Certification
+# 🎓 EduPlay – AI-Powered E-Learning Platform with Certification  
 
-![ExoPlayer](https://img.shields.io/badge/ExoPlayer-Streaming-blue)
-![Paging](https://img.shields.io/badge/Paging3-Integrated-lightblue)
-![Completion](https://img.shields.io/badge/Course_Completion+34%25-success)
+![Kotlin](https://img.shields.io/badge/Kotlin-100%25-blue.svg)  
+![ExoPlayer](https://img.shields.io/badge/ExoPlayer-Video_Streaming-blue)  
+![Paging3](https://img.shields.io/badge/Paging3-Efficient_Loading-lightblue)  
+![Firebase](https://img.shields.io/badge/Firebase-Backend-yellow)  
+![Crash-Free](https://img.shields.io/badge/Crash--Free-99.5%25-success)  
 
-> A modern, scalable e-learning platform offering offline video playback, interactive quizzes, gamification, and certification, designed to boost learner engagement and course completion.
+> **EduPlay** is a modern **e-learning platform** that blends **offline video playback, gamified learning, interactive quizzes, and real-time progress sync**.  
+> Built with **Kotlin, Jetpack Compose, Firebase, and ExoPlayer**, it improves **course completion rates by 34%** and drives higher learner retention.  
 
 ---
 
-## 🚀 Key Features
+## 🌟 Core Highlights  
 
-🎬 High-Performance Video Playback: ExoPlayer with resume, adaptive bitrate, and background playback support
+- 🎬 **Smart Video Streaming** – ExoPlayer with resume, adaptive bitrate, background playback  
+- 📥 **Offline Learning Mode** – Download videos & quizzes for learning without internet  
+- 📝 **Interactive Quizzes** – MCQs & progress-based assessments after each module  
+- 🏆 **Gamification & Certification** – Leaderboards, badges, and instant certificate generation  
+- 📊 **Analytics & Progress Tracking** – Real-time course progress & learner insights  
+- 🔔 **Push Notifications** – Alerts for new courses, reminders & achievements  
+- 🌐 **Multi-Device Sync** – Progress synced across devices using Firebase  
+- 🌗 **Dark/Light UI** – Adaptive Material You 3 with smooth Compose animations  
+- 🚀 **Scalable & Modular** – Easy to add new courses, quizzes & gamification modules  
 
-📥 Offline Content: Cache videos and quizzes for seamless offline access
+---
 
-📝 Interactive Quizzes: MCQs & progress-based assessments after each module
+## 📈 Key Impact  
 
-🏆 Gamification: Leaderboard, points, badges, and certificate generation
+✅ **+34% increase in course completion** with offline playback + gamification  
+📈 **Improved learner retention & repeat usage** with interactive modules  
+⚡ **99.5% crash-free sessions** achieved with optimized architecture  
+⏱️ **<2s average load time** for courses & quizzes  
+💡 **Scalable modular design** for rapid feature expansion  
 
-🌗 Dark & Light Mode: Modern, material-compliant UI with smooth transitions
+---
 
-📊 Analytics & Progress Tracking: Track course progress, completion rate, and quiz performance
+## ⚙️ Tech Stack  
 
-🔔 Push Notifications: FCM alerts for new courses, reminders, and achievements
+**Frontend (Android):**  
+- Kotlin, Coroutines, Flow  
+- Jetpack Compose / XML  
+- ExoPlayer (video playback)  
+- Paging 3 (efficient course loading)  
+- Coil / Glide (image loading)  
 
-🌐 Multi-Device Sync: User progress synced across devices via Firebase
+**Backend (Cloud):**  
+- Firebase Auth (Email, Google, Phone login)  
+- Firestore (courses, quizzes, leaderboard)  
+- Firebase Storage (videos & assets)  
+- FCM (notifications)  
 
-## ⚙️ Tech Stack & Architecture
+**Persistence & Offline:**  
+- Room Database (offline-first caching)  
+- DataStore + SharedPreferences  
 
-Frontend / Android:
+**Architecture:**  
+- MVVM + Clean Architecture  
+- Repository Pattern  
+- Modular feature-based structure  
 
-Kotlin + Jetpack Libraries: MVVM + LiveData + ViewModel
+---
 
-Jetpack Compose / XML for UI
+## 🧠 Architecture Overview  
 
-ExoPlayer (Video Streaming), Paging 3 (Efficient data loading)
+```mermaid
+flowchart TD
+    UI[Compose UI] --> VM[ViewModel]
+    VM --> UC[Use Cases: Business Logic]
+    UC --> REPO[Repository Layer]
+    REPO --> DB[Room Database]
+    REPO --> FIREBASE[Firebase Services: Auth, Firestore, Storage, FCM]
+    REPO --> PLAYER[ExoPlayer / Paging3]
 
-Retrofit + OkHttp (API requests)
+🛠 Setup & Installation
+1️⃣ Clone the repo
+git clone https://github.com/nishantmodi92/eduplay.git
 
-Coil / Glide (Image loading)
-
-Backend / Cloud:
-
-Firebase Auth (Email/Google/Phone login)
-
-Firestore (Course, Quiz, Leaderboard storage)
-
-Firebase Storage (Video & Resource hosting)
-
-FCM (Push notifications)
-
-Persistence & Caching:
-
-Room DB for offline caching
-
-SharedPreferences / DataStore for lightweight settings & progress
-
-Architecture Highlights:
-
-Clean MVVM structure with Repository pattern
-
-Coroutine + Flow for async & reactive programming
-
-Modularized feature structure for scalability
-
-## 📈 Impact & Metrics
-
-🎯 Course Completion Rate: +34% due to offline playback & gamified modules
-
-🧑‍🎓 Retention & Engagement: Increased learner retention & repeat usage
-
-⚡ App Performance: 99.5% crash-free sessions, optimized video playback
-
-⏱️ Fast Load Times: <2 seconds average module load
-
-💻 Scalable Design: Easily integrates new courses, quizzes, and gamification features
-
-## 🛠 Setup & Installation
-
-1. Android Studio:
-
-Minimum SDK 23, Target SDK 34
-
-Kotlin 1.9+, Jetpack Compose latest stable
-
-2. Firebase Configuration:
-
-Create project in Firebase Console
-
-Add google-services.json to app/
-
+2️⃣ Open in Android Studio (Min SDK 23, Target 34, Kotlin 1.9+)
+3️⃣ Firebase Setup
+Add google-services.json under /app
 Enable Firestore, Auth, Storage, FCM
 
-3. Dependencies:
-implementation "androidx.core:core-ktx:1.12.0"
-implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
-implementation "androidx.room:room-runtime:2.6.2"
-kapt "androidx.room:room-compiler:2.6.2"
-implementation "com.google.firebase:firebase-auth:22.2.0"
-implementation "com.google.firebase:firebase-firestore-ktx:24.6.0"
-implementation "com.google.firebase:firebase-storage-ktx:21.2.0"
-implementation "com.google.firebase:firebase-messaging-ktx:23.2.0"
-implementation "com.google.android.exoplayer:exoplayer:2.20.0"
-implementation "androidx.paging:paging-runtime-ktx:3.2.0"
-implementation "io.coil-kt:coil:2.5.0"
-implementation "com.squareup.retrofit2:retrofit:2.9.0"
-implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+4️⃣ Build & Run
+./gradlew clean build
 
-4. Run the App:
-Clone repository → Open in Android Studio → Sync Gradle → Build & Run on device/emulator
+🎉 Enjoy EduPlay – gamified e-learning with offline video, quizzes, and certificates.
 
 🔗 Links
-GitHub Repo
-
----
-
+📂 GitHub Repo
+🌐 Portfolio Demo
