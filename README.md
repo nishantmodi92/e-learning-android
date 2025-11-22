@@ -1,40 +1,60 @@
-🧠  EduPlay – E-Learning Platform
-Summary
+🧠  Learnfinity – Interactive Online Learning Platform
+<p> <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-FEC007?style=for-the-badge&logo=firebase&logoColor=black"/> <img src="https://img.shields.io/badge/Room-9C27B0?style=for-the-badge"/> <img src="https://img.shields.io/badge/Hilt-4A148C?style=for-the-badge"/> <img src="https://img.shields.io/badge/Retrofit-FF6D00?style=for-the-badge"/> </p>
 
-EduPlay provides an interactive and gamified learning experience for students and professionals, supporting both online and offline learning.
+📊 Key Metrics
 
-Tech Stack
+🎓 Courses, quizzes, and progress tracking
 
-Kotlin, Jetpack Compose, Firebase (Auth, Firestore, Storage), Retrofit, MVVM, Material You Design.
+⚡ Real-time sync & notifications (<300ms)
 
-Key Metrics
+📈 18K+ learners
 
-20K+ registered learners
+🟢 98% crash-free stability
 
-98% crash-free sessions
+🔄 Offline-first access to courses & notes
 
-35% increase in retention rate
+🏗 Architecture
 
-25% engagement growth through gamification
+MVVM + Clean Architecture + Multi-Module
 
-Architecture
+Offline-first Room DB + Firestore sync
 
-MVVM + Repository Pattern using Firebase for content and progress tracking. Retrofit handles API data. Offline caching ensures learning continuity.
+Modular Compose UI components
 
-Core Features
+REST + Firebase for course content delivery
 
-Gamified lessons and course progression
+Event-driven notifications & progress updates
 
-Offline study mode
+🧩 Core Features
 
-Real-time quiz & scoring system
+Course catalog & categories
 
-Personalized dashboards
+Video lessons + PDFs + quizzes
 
-Firebase Analytics for performance tracking
+Offline-first access to lessons & notes
 
-Impact
+Progress tracking & certificates
 
-Boosted engagement and learning efficiency through seamless UI and adaptive gamification.
+Push notifications & reminders
 
-🔗 GitHub: EduPlay Repository
+🚀 Impact
+
+20% higher learner retention
+
+Reliable offline-first learning experience
+
+Scalable to tens of thousands of concurrent users
+
+Smooth, modern Compose UI
+
+🧪 Testing & CI/CD
+
+Unit & UI tests
+
+Offline access & sync reliability tests
+
+GitHub Actions + Fastlane
+
+Crashlytics & Performance monitoring
+
+🔗 GitHub: github.com/nishantmodi92/learnfinity-android
