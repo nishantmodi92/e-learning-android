@@ -1,40 +1,49 @@
-<h1 align="center">EduPlay — Modern E-Learning & Course Streaming App</h1>
 
 ---
 
-## Badges
-![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue)
-![Compose](https://img.shields.io/badge/Compose-Stable-green)
-![Firebase](https://img.shields.io/badge/Firebase-Backend-orange)
+# 🟦  EduPlay – Learning & Course App**
+
+```md
+# EduPlay – E-Learning & Interactive Course App
+
+## 🚀 Overview
+EduPlay is a complete e-learning application featuring course catalog, lesson viewer, quizzes, bookmarks, and offline downloads.
 
 ---
 
-## Overview
-An e-learning platform for video streaming, quizzes, progress tracking, and personalized learning.
+## 🛠 Tech Stack
+- Kotlin, Compose  
+- Modular architecture  
+- Room (offline lessons)  
+- Retrofit  
+- WorkManager  
+- Hilt  
 
 ---
 
-## Features
-- Video lessons  
-- Course categories  
-- Quizzes  
-- Progress tracking  
-- Firebase Auth + Firestore  
-- Offline video save (future)  
+## ⭐ Features
+- Course catalog  
+- Video/lesson viewer  
+- Quiz module  
+- Bookmarks  
+- Offline lessons  
+- Background content sync  
 
 ---
 
-## Architecture Diagram
+## Architecture
 
-Compose → ViewModel → UseCases → Repository → Firebase / Local DB
+feature-courses/
+feature-lessons/
+feature-quiz/
+domain/
+data/
+core/
 
 
 ---
 
-## Setup
-```bash
-git clone https://github.com/nishantmodi92/learnfinity-android
+## Security
+- Encrypted offline lessons  
+- Secure token handling  
 
-Author
-
-Nishant Modi
